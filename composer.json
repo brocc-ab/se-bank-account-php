@@ -1,0 +1,42 @@
+{
+    "name": "brocc/se-bank-account",
+    "description": "Swedish bank account details and validation for PHP",
+    "keywords": ["swedish","bank","account","validation"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brocc AB",
+            "email": "tech@brocc.se"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/brocc-ab/se-bank-account-php/issues"
+    },
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5",
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brocc\\SeBankAccount\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Brocc\\SeBankAccount\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "php-cs-fixer": [
+            "php-cs-fixer fix --diff -v"
+        ],
+        "test": [
+            "php-cs-fixer fix --diff --dry-run -v",
+            "phpunit --verbose"
+        ]
+    }
+}

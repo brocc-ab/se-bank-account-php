@@ -1,0 +1,21 @@
+language: php
+
+php:
+  - 7.1
+  - 7.2
+  - 7.3
+  - 7.4
+  - nightly
+
+sudo: false
+
+matrix:
+  allow_failures:
+    - php: nightly
+  fast_finish: true
+
+install:
+  - travis_retry composer update --prefer-dist --no-interaction
+
+script:
+  - composer test
