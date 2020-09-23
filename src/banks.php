@@ -247,7 +247,7 @@ return [
     ],
     [
         'name' => 'Handelsbanken',
-        'regex' => '/^6[0-9]{12}$/',
+        'regex' => '/^6[0-9]{10,12}$/',
         'type' => 2,
         'comment' => 2,
     ],
