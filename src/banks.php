@@ -155,7 +155,7 @@ return [
         'comment' => 1,
     ],
     [
-        'name' => 'NOBA Bank Group',
+        'name' => 'Nordax Bank',
         'regex' => '/^964[0-9]{8}$/',
         'type' => 1,
         'comment' => 2,

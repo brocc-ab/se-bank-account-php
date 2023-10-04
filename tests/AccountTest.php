@@ -138,7 +138,7 @@ class AccountTest extends TestCase
                 'number' => '9070-0000100',
             ],
             [
-                'bank' => 'NOBA Bank Group',
+                'bank' => 'Nordax Bank',
                 'number' => '9640-0010000',
             ],
             [
