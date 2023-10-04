@@ -77,6 +77,12 @@ return [
         'comment' => 2,
     ],
     [
+        'name' => 'Forex Bank',
+        'regex' => '/^94[0-4][0-9]{8}$/',
+        'type' => 1,
+        'comment' => 1,
+    ],
+    [
         'name' => 'Ica Banken',
         'regex' => '/^927[0-9]{8}$/',
         'type' => 1,
@@ -135,6 +141,12 @@ return [
         'regex' => '/^923[0-9]{8}$/',
         'type' => 1,
         'comment' => 1,
+    ],
+    [
+        'name' => 'MedMera Bank',
+        'regex' => '/^965[0-9]{8}$/',
+        'type' => 1,
+        'comment' => 2,
     ],
     [
         'name' => 'Multitude Bank plc',

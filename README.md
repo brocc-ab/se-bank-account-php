@@ -58,6 +58,7 @@ Following Swedish banks are currently supported:
 * Danske Bank
 * Ekobanken
 * Erik Penser
+* Forex Bank
 * Handelsbanken
 * IKANO Bank
 * Ica Banken
@@ -68,6 +69,7 @@ Following Swedish banks are currently supported:
 * Länsförsäkringar Bank
 * Lån & Spar Bank Sverige
 * Marginalen Bank
+* MedMera Bank
 * Multitude Bank plc
 * NOBA Bank Group
 * Nordea

@@ -86,6 +86,10 @@ class AccountTest extends TestCase
                 'number' => '9590-0000100',
             ],
             [
+                'bank' => 'Forex Bank',
+                'number' => '9400-0001000',
+            ],
+            [
                 'bank' => 'Ica Banken',
                 'number' => '9270-0010000',
             ],
@@ -124,6 +128,10 @@ class AccountTest extends TestCase
             [
                 'bank' => 'Marginalen Bank',
                 'number' => '9230-1000001',
+            ],
+            [
+                'bank' => 'MedMera Bank',
+                'number' => '9650-1000000',
             ],
             [
                 'bank' => 'Multitude Bank plc',
