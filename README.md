@@ -58,7 +58,7 @@ Following Swedish banks are currently supported:
 * Danske Bank
 * Ekobanken
 * Erik Penser
-* Forex Bank
+* Forex Bank *(discontinued\*)*
 * Handelsbanken
 * IKANO Bank
 * Ica Banken
@@ -69,9 +69,9 @@ Following Swedish banks are currently supported:
 * Länsförsäkringar Bank
 * Lån & Spar Bank Sverige
 * Marginalen Bank
-* MedMera Bank
+* MedMera Bank *(discontinued\*)*
 * Multitude Bank plc
-* NOBA Bank Group
+* Nordax Bank *(NOBA Bank Group\*\*)*
 * Nordea
 * Nordea Personkonto
 * Nordea/Plusgirot
@@ -88,6 +88,9 @@ Following Swedish banks are currently supported:
 * Swedbank
 * Swedbank fd. Sparbanken Öresund
 * Ålandsbanken Sverige AB
+
+\* Bank is currently not available in Bankgirot documentation, available in package for backwards compatibility.\
+\*\* Nordax Bank has changed company name to NOBA Bank Group, package will still return Nordax Bank.
 
 ## Contributing
 
