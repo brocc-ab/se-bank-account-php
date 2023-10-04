@@ -48,26 +48,28 @@ If an account is not valid `$account->isValid()` will return `false` and the oth
 
 Following Swedish banks are currently supported:
 
+* Aion Bank SA
 * Avanza Bank
 * BNP Paribas SA
 * Bankgirot
 * BlueStep Finans
+* Citibank
 * DNB Bank
 * Danske Bank
 * Ekobanken
 * Erik Penser
-* Forex Bank
 * Handelsbanken
 * IKANO Bank
 * Ica Banken
 * JAK Medlemsbank
 * Klarna Bank
 * Landshypotek
+* Lunar Bank A/S
 * Länsförsäkringar Bank
 * Lån & Spar Bank Sverige
 * Marginalen Bank
-* MedMera Bank
-* Nordax Bank
+* Multitude Bank plc
+* NOBA Bank Group
 * Nordea
 * Nordea Personkonto
 * Nordea/Plusgirot
