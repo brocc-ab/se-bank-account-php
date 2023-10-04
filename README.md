@@ -89,8 +89,8 @@ Following Swedish banks are currently supported:
 * Swedbank fd. Sparbanken Öresund
 * Ålandsbanken Sverige AB
 
-\* Bank is currently not available in Bankgirot documentation, available in package for backwards compatibility.\
-\*\* Nordax Bank has changed company name to NOBA Bank Group, package will still return Nordax Bank.
+\* Bank is currently not available in Bankgirot's documentation, available in package for backwards compatibility.\
+\*\* Package will return Nordax Bank, even though the company name has changed to NOBA Bank Group.
 
 ## Contributing
 
