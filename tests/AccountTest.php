@@ -50,6 +50,10 @@ class AccountTest extends TestCase
                 'number' => '9660-1000010',
             ],
             [
+                'bank' => 'Aion Bank SA',
+                'number' => '9580-1000100',
+            ],
+            [
                 'bank' => 'Avanza Bank',
                 'number' => '9550-0100000',
             ],
@@ -60,6 +64,10 @@ class AccountTest extends TestCase
             [
                 'bank' => 'BNP Paribas SA',
                 'number' => '9470-1000010',
+            ],
+            [
+                'bank' => 'Citibank',
+                'number' => '9040-1000100',
             ],
             [
                 'bank' => 'Danske Bank',
@@ -76,10 +84,6 @@ class AccountTest extends TestCase
             [
                 'bank' => 'Erik Penser',
                 'number' => '9590-0000100',
-            ],
-            [
-                'bank' => 'Forex Bank',
-                'number' => '9400-0001000',
             ],
             [
                 'bank' => 'Ica Banken',
@@ -102,6 +106,10 @@ class AccountTest extends TestCase
                 'number' => '9390-0000001',
             ],
             [
+                'bank' => 'Lunar Bank A/S',
+                'number' => '9710-0000000',
+            ],
+            [
                 'bank' => 'Lån & Spar Bank Sverige',
                 'number' => '9630-0000001',
             ],
@@ -118,11 +126,11 @@ class AccountTest extends TestCase
                 'number' => '9230-1000001',
             ],
             [
-                'bank' => 'MedMera Bank',
-                'number' => '9650-1000000',
+                'bank' => 'Multitude Bank plc',
+                'number' => '9070-0000100',
             ],
             [
-                'bank' => 'Nordax Bank',
+                'bank' => 'NOBA Bank Group',
                 'number' => '9640-0010000',
             ],
             [

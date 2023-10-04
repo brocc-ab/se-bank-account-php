@@ -17,6 +17,12 @@ return [
         'comment' => 2,
     ],
     [
+        'name' => 'Aion Bank SA',
+        'regex' => '/^958[0-9]{8}$/',
+        'type' => 1,
+        'comment' => 1,
+    ],
+    [
         'name' => 'Avanza Bank',
         'regex' => '/^95[5-6][0-9]{8}$/',
         'type' => 1,
@@ -31,6 +37,12 @@ return [
     [
         'name' => 'BNP Paribas SA',
         'regex' => '/^947[0-9]{8}$/',
+        'type' => 1,
+        'comment' => 2,
+    ],
+    [
+        'name' => 'Citibank',
+        'regex' => '/^904[0-9]{8}$/',
         'type' => 1,
         'comment' => 2,
     ],
@@ -65,12 +77,6 @@ return [
         'comment' => 2,
     ],
     [
-        'name' => 'Forex Bank',
-        'regex' => '/^94[0-4][0-9]{8}$/',
-        'type' => 1,
-        'comment' => 1,
-    ],
-    [
         'name' => 'Ica Banken',
         'regex' => '/^927[0-9]{8}$/',
         'type' => 1,
@@ -101,6 +107,12 @@ return [
         'comment' => 2,
     ],
     [
+        'name' => 'Lunar Bank A/S',
+        'regex' => '/^971[0-9]{8}$/',
+        'type' => 1,
+        'comment' => 2,
+    ],
+    [
         'name' => 'Lån & Spar Bank Sverige',
         'regex' => '/^963[0-9]{8}$/',
         'type' => 1,
@@ -125,13 +137,13 @@ return [
         'comment' => 1,
     ],
     [
-        'name' => 'MedMera Bank',
-        'regex' => '/^965[0-9]{8}$/',
+        'name' => 'Multitude Bank plc',
+        'regex' => '/^907[0-9]{8}$/',
         'type' => 1,
-        'comment' => 2,
+        'comment' => 1,
     ],
     [
-        'name' => 'Nordax Bank',
+        'name' => 'NOBA Bank Group',
         'regex' => '/^964[0-9]{8}$/',
         'type' => 1,
         'comment' => 2,
