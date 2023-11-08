@@ -32,9 +32,12 @@ class AccountTest extends TestCase
         $this->assertEquals($bank, $account->bank());
     }
 
-    public function testInvalidBankAccountNumber()
+    /**
+     * @dataProvider invalidBankAccountNumbers
+     */
+    public function testInvalidBankAccountNumber(string $bankAccountNumber)
     {
-        $account = new Account('0000-0000000');
+        $account = new Account($bankAccountNumber);
 
         $this->assertFalse($account->isValid());
         $this->assertNull($account->clearing());
@@ -249,6 +252,18 @@ class AccountTest extends TestCase
                 'bank' => 'Bankgirot',
                 'number' => '9900-2000008',
             ],
+        ];
+    }
+
+    public function invalidBankAccountNumbers(): array
+    {
+        return [
+            ['0000-0000000'],
+            ['1400-00010001234'],
+            ['2000-10000040'],
+            ['3301-010000099'],
+            ['3410-0100000000000000000'],
+            ['4000-10000003333']
         ];
     }
 }
