@@ -48,26 +48,30 @@ If an account is not valid `$account->isValid()` will return `false` and the oth
 
 Following Swedish banks are currently supported:
 
+* Aion Bank SA
 * Avanza Bank
 * BNP Paribas SA
 * Bankgirot
 * BlueStep Finans
+* Citibank
 * DNB Bank
 * Danske Bank
 * Ekobanken
 * Erik Penser
-* Forex Bank
+* Forex Bank *(discontinued\*)*
 * Handelsbanken
 * IKANO Bank
 * Ica Banken
 * JAK Medlemsbank
 * Klarna Bank
 * Landshypotek
+* Lunar Bank A/S
 * Länsförsäkringar Bank
 * Lån & Spar Bank Sverige
 * Marginalen Bank
-* MedMera Bank
-* Nordax Bank
+* MedMera Bank *(discontinued\*)*
+* Multitude Bank plc
+* Nordax Bank *(NOBA Bank Group\*\*)*
 * Nordea
 * Nordea Personkonto
 * Nordea/Plusgirot
@@ -84,6 +88,9 @@ Following Swedish banks are currently supported:
 * Swedbank
 * Swedbank fd. Sparbanken Öresund
 * Ålandsbanken Sverige AB
+
+\* Bank is currently not available in Bankgirot's documentation, available in package for backwards compatibility.\
+\*\* Package will return Nordax Bank, even though the company name has changed to NOBA Bank Group.
 
 ## Contributing
 

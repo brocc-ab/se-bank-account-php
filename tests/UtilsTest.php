@@ -16,17 +16,94 @@ use PHPUnit\Framework\TestCase;
 
 class UtilsTest extends TestCase
 {
-    public function testMod10Method()
+    /**
+     * @dataProvider mod10TestCases
+     */
+    public function testMod10Method(string $input, bool $valid)
     {
-        // Check against mod-10 example provided by Bankgirot.
-        $this->assertTrue(Utils::mod10('3316812057492'));
-        // Check against Swedish ssn.
-        $this->assertTrue(Utils::mod10('9906130241'));
+        $this->assertEquals($valid, Utils::mod10($input));
     }
 
-    public function testMod11Method()
+    /**
+     * @dataProvider mod11TestCases
+     */
+    public function testMod11Method(string $input, bool $valid)
     {
-        // Check against mod-11 example provided by Bankgirot.
-        $this->assertTrue(Utils::mod11('1912763608957'));
+        $this->assertEquals($valid, Utils::mod11($input));
+    }
+
+    public function mod10TestCases(): array
+    {
+        return [
+            [
+                # Example from Bankgirot.
+                'input' => '3316812057492',
+                'valid' => true,
+            ],
+            [
+                # Example from Bankgirot.
+                'input' => '55555551',
+                'valid' => true,
+            ],
+            [
+                # Example from Bankgirot.
+                'input' => '9912346',
+                'valid' => true,
+            ],
+            [
+                'input' => '3316812057490',
+                'valid' => false,
+            ],
+            [
+                'input' => '55555550',
+                'valid' => false,
+            ],
+            [
+                'input' => '9912340',
+                'valid' => false,
+            ],
+            [
+                # Swedish ssn.
+                'input' => '9906130241',
+                'valid' => true,
+            ],
+            [
+                'input' => '9906130240',
+                'valid' => false,
+            ],
+        ];
+    }
+
+    public function mod11TestCases(): array
+    {
+        return [
+            [
+                # Example from Bankgirot.
+                'input' => '1912763608957',
+                'valid' => true,
+            ],
+            [
+                # Example from Bankgirot.
+                'input' => '241350',
+                'valid' => true,
+            ],
+            [
+                # Example from Bankgirot.
+                'input' => '324558',
+                'valid' => true,
+            ],
+            [
+                'input' => '1912763608950',
+                'valid' => false,
+            ],
+            [
+                'input' => '241351',
+                'valid' => false,
+            ],
+            [
+                'input' => '324550',
+                'valid' => false,
+            ],
+        ];
     }
 }
